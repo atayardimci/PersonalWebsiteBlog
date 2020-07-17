@@ -1,1 +1,15 @@
-# FarmBeats
+# FarmBeats Personal Blog Post
+
+I’m Ata from Istanbul, Turkey and I am a 3rd year Electrical & Electronic Engineering student at Imperial College London. Particularly this year, I became very interested in fields of Machine Learning, Data Science and Signal Processing, and for this reason, I jumped at the opportunity of working with Microsoft on a project that utilized AI and Machine Learning.
+
+Despite the restrictions caused by the COVID-19 pandemic, I must say that I had a great experience in a remote working environment with a very involved and supportive industrial supervisor, a dedicated Microsoft team, and very enthusiastic group members. 
+
+Although, when the project was first introduced to us by the Microsoft team, I found it a bit intimidating. There were a lot of technical terms that I wasn’t accustomed to and thought I should’ve been familiar with them. I had never used Azure, had very little experience with embedded systems, and also, I had never used a Raspberry Pi. I only had some experience with software development and had completed a few courses on Machine Learning. However, other engineering soft skills that I acquired throughout my degree, like problem solving and researching, on top of the comprehensive learning resources we were suggested by the Microsoft team, eased my journey along this project a lot, and few weeks in, I started to feel very comfortable with the content.
+
+Our aim was to create learning resources for students to teach them about IoT, Azure and digital agriculture. As a member of our intended audience and as someone who had very little knowledge on these topics, I learned a lot about IoT and Azure while creating these resources and hope people will be able to utilize them the same way.
+
+I learned how to collect telemetry data from an IoT device (a Raspberry Pi in this case), how to upload this data to the cloud using an application platform called **Azure IoT Central**, how to create a dashboard to view and manage this data online. I learned how to build a real-time data pipeline using **Events Hub** and **Stream Analytics** to stream and process the sensor data and communicate back to the IoT device via an API request.
+
+I also had the chance to use **Azure Machine Learning Studio** to predict the chance of rain based on the temperature and humidity data collected from the IoT device. For this, we used an available weather dataset in the Studio and built a Machine Learning pipeline by just dragging modules such as **Split Data**, **Clean Missing Data**, **Train Model**, **Evaluate Model** and so on. This was particularly very enjoyable for me as someone who did these exact things by writing several lines of code for his Machine Learning/Deep Learning classes. It was very satisfying to see how simple it was to use the Azure Machine Learning Studio.
+
+If you wish, you can view our project on [Microsoft's official repository](https://github.com/microsoft/FarmBeats-UniversityCommunity), and you can watch our presentation to the Microsoft FarmBeats team on their [youtube channel](https://www.youtube.com/watch?v=LlQ9sxX97xg&t=348s).
